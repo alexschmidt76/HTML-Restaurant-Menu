@@ -84,3 +84,41 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+
+/* the .highlight class is to signify which screen the user is on in the navbar */
+.highlight {
+    color: red;
+}
+
+/* #closed is for the holiday closure banner */
+#closed {
+    width: 100%;
+    background-color: green;
+    padding: 20px;
+}
+
+#closed h1, 
+#closed p {
+    color: white;
+}
+
+/* formatting for the footer */
+footer {
+    background-color: green;
+    padding: 20px;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+}
+
+/* formatting for list of locations */
+#locations {
+    list-style-type: none;
+}
+
+.location {
+    text-align: center;
+    margin-right: 40px;
+}
